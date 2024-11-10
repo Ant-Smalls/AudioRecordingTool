@@ -13,6 +13,7 @@
 		4AB5CA882CD2870B00AF26F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB5CA862CD2870B00AF26F1 /* Main.storyboard */; };
 		4AB5CA8A2CD2870D00AF26F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB5CA892CD2870D00AF26F1 /* Assets.xcassets */; };
 		4AB5CA8D2CD2870D00AF26F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB5CA8B2CD2870D00AF26F1 /* LaunchScreen.storyboard */; };
+		7CD1F2282CE00C9B0031FB7A /* AssemblyAIWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1F2272CE00C8F0031FB7A /* AssemblyAIWebSocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4AB5CA892CD2870D00AF26F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AB5CA8C2CD2870D00AF26F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AB5CA8E2CD2870D00AF26F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD1F2272CE00C8F0031FB7A /* AssemblyAIWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyAIWebSocket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4AB5CA802CD2870B00AF26F1 /* AppDelegate.swift */,
 				4AB5CA822CD2870B00AF26F1 /* SceneDelegate.swift */,
 				4AB5CA842CD2870B00AF26F1 /* ViewController.swift */,
+				7CD1F2272CE00C8F0031FB7A /* AssemblyAIWebSocket.swift */,
 				4AB5CA862CD2870B00AF26F1 /* Main.storyboard */,
 				4AB5CA892CD2870D00AF26F1 /* Assets.xcassets */,
 				4AB5CA8B2CD2870D00AF26F1 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB5CA852CD2870B00AF26F1 /* ViewController.swift in Sources */,
+				7CD1F2282CE00C9B0031FB7A /* AssemblyAIWebSocket.swift in Sources */,
 				4AB5CA812CD2870B00AF26F1 /* AppDelegate.swift in Sources */,
 				4AB5CA832CD2870B00AF26F1 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BDQUY7Y95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AudioPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BDQUY7Y95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AudioPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
